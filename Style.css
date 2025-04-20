@@ -1,0 +1,84 @@
+﻿/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3f3cd;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.title {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.start-container {
+    text-align: right;
+}
+
+/* Button Styles */
+.start-button {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.start-button:hover {
+    background-color: #f7d800;
+}
+
+
+/* New Section for Tagline and Image */
+.center-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.center-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* This will ensure the image maintains its aspect ratio */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #2db60d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,62 @@
+Failed login attempt - student_no not found: 21-01498
+User registered: 21-01497
+Failed login attempt - student_no not found: 21-01498
+Failed login attempt - student_no not found: paul@gmail.com
+Failed login attempt - student_no not found: 
+Failed login attempt - student_no not found: 
+Failed login attempt - student_no not found: 
+Failed login attempt - student_no not found: 
+User registered: 21-01596
+User registered: 21-03456
+User registered: 21-01534
+User registered: 21-01521
+User registered: 2101521
+User registered: 210497
+User registered: 21-01496
+User registered: 21-01497
+User registered: 21-09344
+User registered: 21-01496
+User registered: 21-01498
+User registered: 21-01111
+User registered: 21-01521
+User registered: 21-01534
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01531
+User registered: 21-12345
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01318
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01403
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01403
+User registered: 21-01409
+User registered: 21-01473
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01433
+User registered: 21-01434
+User registered: 21-01434
+User registered: 21-01473
+User registered: 21-01521
+User registered: 21-01521
+User registered: 21-01435
+User registered: 21-01234
+User registered: 21-01521
+User registered: 21-01414
+User registered: 21-14140
+User registered: 21-00629
+User registered: 21-01477
+User registered: 21-01409
+User registered: 21-01123
+User registered: 21-01521

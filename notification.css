@@ -1,0 +1,136 @@
+/* Reset and background styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Side Menu Styling */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d3f3cd;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    z-index: 10;
+}
+.side-menu.open {
+    width: 250px;
+}
+
+.side-menu a {
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.side-menu a:hover {
+    background-color: #575757;
+}
+
+.close-btn {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+/* Logo and System Title Styling in Side Menu */
+.side-logo-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; /* Adds space between the title and the logo */
+}
+
+.system-title {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adds space between the title and the logo */
+    text-align: center;
+}
+
+
+/* Menu Toggle Button */
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+/* Notifications Container Styling */
+.notifications-container {
+    margin-left: 300px; /* Adjust this if needed for the side menu */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.notifications-container ul {
+    list-style-type: none;
+}
+
+.notifications-container li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.notifications-container small {
+    color: #666;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 42%;
+    transform: translateX(50%);
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,128 @@
+/* Side Menu Styling */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d3f3cd;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    padding-top: 50px; /* Increased padding to move content down */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-menu.open {
+    width: 250px;
+}
+
+.side-menu a {
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 10px; /* Adds spacing between menu items */
+}
+
+.side-menu a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.close-btn {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px; /* Adds space below the close button */
+}
+
+/* Logo and System Title Styling */
+.side-logo-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.system-title {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Profile Picture Styling */
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px 0; /* Adds space around the profile picture */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+/* Image Grid Styling */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Space between grid items */
+    margin: 20px;
+    justify-items: center;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.grid-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.image-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}

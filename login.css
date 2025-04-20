@@ -1,0 +1,100 @@
+﻿
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-start; 
+}
+
+
+.logo {
+    position: fixed;
+    left: 50px; 
+    top: 50%; 
+    transform: translateY(-50%) translateX(20%); 
+    height: 60vh;
+    width: auto;
+}
+
+    .logo img {
+        height: 100%;
+        width: auto;
+    }
+
+
+.login-container {
+    position: absolute;
+    top: 35%; 
+    right: 15%; 
+    width: 300px; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+    .login-container h1 {
+        font-size: 24px;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .login-container input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        font-size: 1.1em;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: yellow;
+        color: black;
+    }
+
+    .login-container .login-button {
+        display: inline-block;
+        width: 200px; 
+        padding: 15px; 
+        font-size: 1.2em;
+        color: black;
+        background-color: yellow;
+        border: 2px solid black;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-top: 15px; 
+        text-align: center;
+    }
+
+        .login-container .login-button:hover {
+            background-color: #f7d800;
+        }
+
+.forgot-password-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+    .forgot-password-link:hover {
+        text-decoration: underline;
+    }
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}

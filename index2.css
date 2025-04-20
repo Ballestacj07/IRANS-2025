@@ -1,0 +1,81 @@
+﻿/* General Styles */
+body {
+    background-color: #d3f3cd;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    left: 0%; 
+    top: 50%; 
+    transform: translateY(-50%) translateX(70%);
+    height: 50vh;
+    z-index: 1;
+}
+
+.logo img {
+    height: 100%;
+    width: auto; 
+    display: block;
+}
+
+/* Welcome Container */
+.welcome-container {
+    position: absolute;
+    top: 50%; 
+    right: 20%; 
+    transform: translateY(-50%);
+    text-align: center; 
+    padding: 10px;
+    z-index: 2; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/* Welcome Text */
+.welcome-text {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.welcome-text p {
+    margin: 0;
+}
+
+/* Button Styles */
+.signup-button, .login-button {
+    display: inline-block;
+    width: 200px;
+    padding: 10px; 
+    font-size: 1.2em;
+    color: black;
+    background-color: rgb(109, 243, 91);
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 15px; 
+    text-align: center;
+    text-decoration: none;
+}
+
+.signup-button:hover, .login-button:hover {
+    background-color: #f7d800;
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-weight: bold;
+    z-index: 2; 
+    text-align: center;
+}

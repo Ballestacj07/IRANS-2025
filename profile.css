@@ -1,0 +1,175 @@
+﻿/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Side Menu Styling */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d3f3cd;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    padding-top: 50px; /* Moves content down */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-menu.open {
+    width: 250px;
+}
+
+.side-menu a {
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 10px; /* Adds spacing between menu items */
+}
+
+.side-menu a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.close-btn {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px; /* Adds space below the close button */
+}
+
+/* Logo and System Title Styling */
+.side-logo-container {
+    text-align: center;
+    margin-bottom: 40px; /* Optional: Adds space at the bottom of the container */
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; /* Adds space between the title and the logo */
+}
+
+.system-title {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adds space between the title and the logo */
+    text-align: center;
+}
+
+
+/* Menu Toggle Button */
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+/* Profile Page Styling */
+.profile-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #d3f3cd;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.profile-header {
+    background-color: #4CAF50;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.profile-header h1 {
+    margin-bottom: 10px;
+}
+
+.profile-avatar img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0;
+}
+
+.change-photo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.change-photo {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.change-photo:hover {
+    background-color: #45a049;
+}
+
+.profile-details {
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #333;
+}
+
+.profile-details strong {
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-weight: bold;
+    z-index: 2; 
+    text-align: center;
+    width: 100%;
+}
